@@ -1,0 +1,63 @@
+<resources>
+
+  <style name="AppTheme" parent="Theme.AppCompat.Light.NoActionBar">
+    <!-- Customize your theme here. -->
+    <item name="colorPrimary">@android:color/white</item>
+    <item name="colorPrimaryDark">@color/colorPrimaryDark</item>
+    <item name="colorAccent">@color/colorAccent</item>
+    <item name="android:statusBarColor">@android:color/white</item>
+    <item name="android:windowLightStatusBar">false</item>
+    <item name="android:windowBackground">@android:color/white</item>
+  </style>
+
+  <style name="AppThemeNoBar" parent="Theme.AppCompat.Light.NoActionBar">
+    <!-- Customize your theme here. -->
+    <item name="colorPrimary">@color/colorPrimary</item>
+    <item name="colorPrimaryDark">@color/colorPrimaryDark</item>
+    <item name="colorAccent">@color/colorAccent</item>
+    <item name="android:statusBarColor">@android:color/white</item>
+    <item name="android:windowBackground">@android:color/white</item>
+	  <item name="android:windowLightStatusBar">true</item>
+  </style>
+
+  <style name="AppThemePopUp" parent="Theme.AppCompat.Light.NoActionBar">
+    <item name="android:windowBackground">@android:color/transparent</item>
+    <item name="colorPrimary">@color/colorPrimary</item>
+    <item name="colorPrimaryDark">@color/colorPrimaryDark</item>
+    <item name="colorAccent">@color/colorAccent</item>
+    <item name="android:statusBarColor">@color/colorBlue</item>
+    <item name="android:windowLightStatusBar">false</item>
+    <item name="android:autofilledHighlight">@android:color/transparent</item>
+  </style>
+
+  <style name="AppTheme.ActionBar.TitleTextStyle" parent="@android:style/TextAppearance.Holo.Widget.ActionBar.Title">
+    <item name="android:textColor">#FF0000</item>
+  </style>
+
+  <style name="DialogTheme" parent="Theme.AppCompat.Light.Dialog">
+    <!-- Customize your theme here. -->
+    <item name="android:windowBackground">@null</item>
+    <item name="android:windowNoTitle">true</item>
+    <item name="android:windowIsFloating">false</item>
+  </style>
+    <style name="MyDatePickerDialogTheme" parent="android:Theme.Material.Light.Dialog">
+    <item name="android:datePickerStyle">@style/MyDatePickerStyle</item>
+    <item name="android:colorAccent">#9c9c9c</item>
+  </style>
+
+  <style name="MyDatePickerStyle" parent="@android:style/Widget.Material.Light.DatePicker">
+    <item name="android:headerBackground">#21c41b</item>
+    <item name="android:datePickerMode">calendar</item>
+    <item name="android:textColorPrimaryInverse">#fff</item>
+    <item name="android:colorControlActivated">#21c41b</item>  
+  </style>
+
+  <style name="BottomSheetDialog" parent="Theme.Design.Light.BottomSheetDialog">
+    <item name="bottomSheetStyle">@style/bottomSheetStyleWrapper</item>
+  </style>
+
+  <style name="bottomSheetStyleWrapper" parent="Widget.Design.BottomSheet.Modal">
+    <item name="android:background">@android:color/transparent</item>
+  </style>
+
+</resources>
